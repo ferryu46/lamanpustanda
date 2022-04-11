@@ -72,6 +72,16 @@ h5 {
   margin-right: 15px;
 }
 
+.logo-container {
+  width: 100px;
+}
+.logo {
+  max-height: 90px;
+  width: auto;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
 /* Global styles
 ================================================== */
 html {
@@ -116,7 +126,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #000;
+  color: rgb(204, 223, 41);
 }
 
 a.read-more {
