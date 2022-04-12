@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pustanda2-dev-101129-authRole",
+      "UnauthRoleArn": "arn:aws:iam::977216455735:role/amplify-pustanda2-dev-101129-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::977216455735:role/amplify-pustanda2-dev-101129-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-pustanda2-dev-101129-deployment",
+      "UnauthRoleName": "amplify-pustanda2-dev-101129-unauthRole",
+      "StackName": "amplify-pustanda2-dev-101129",
+      "StackId": "arn:aws:cloudformation:us-east-1:977216455735:stack/amplify-pustanda2-dev-101129/53a00ff0-ba0e-11ec-b52f-0a3783f23f37",
+      "AmplifyAppId": "d2p782n97ue8s8"
+    }
+  }
+}
