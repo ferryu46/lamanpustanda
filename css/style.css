@@ -1866,6 +1866,8 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 /* Service Image */
 .ts-service-image-wrapper {
+  display: flex;
+  justify-content: center;
   margin-bottom: 30px;
 }
 
@@ -2544,8 +2546,8 @@ img.testimonial-thumb {
 
 /*-- Copyright --*/
 .copyright {
-  background: #2a630f;
-  color: #111;
+  background: #2c89e0;
+  color: rgb(255, 255, 255);
   padding: 25px 0;
   position: relative;
   z-index: 1;
@@ -3515,3 +3517,7 @@ label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+#logo:hover {
+  transform: scale(1.1);
+}
