@@ -299,10 +299,10 @@ a:focus {
 }
 
 .section-sub-title {
-  font-weight: 900;
+  font-weight: 600;
   font-size: 36px;
   line-height: 46px;
-  margin: 0 0 60px;
+  margin: 0 0 30px;
   color: #212121;
 }
 
