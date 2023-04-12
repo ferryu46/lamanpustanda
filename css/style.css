@@ -3501,6 +3501,30 @@ label {
   border: 1px solid transparent;
 }
 
+.vertical-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(213, 216, 213);
+}
+
+.vertical-center-left {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border: 1px solid rgb(213, 216, 213);
+}
+
+.keys {
+  background-color: rgb(134, 183, 248);
+  font-weight: bolder;
+  min-height: 80px;
+  text-align: center;
+}
+
+.keys-info {
+  background-color: rgb(231, 234, 235);
+}
 /* Error page
 ================================================== */
 .error-page .error-code h2 {
