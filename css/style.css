@@ -79,7 +79,7 @@ h5 {
   width: 100px;
 }
 .logo {
-  max-height: 90px;
+  max-height: 120px;
   width: auto;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
@@ -751,11 +751,11 @@ ul.navbar-nav > li.active > a {
 /*-- Logo --*/
 .logo img {
   width: auto;
-  height: 60px;
+  height: 120px;
 }
 
 .header-two .logo img {
-  height: 60px;
+  height: 120px;
 }
 
 /* header right */
@@ -3544,4 +3544,10 @@ label {
 
 #logo:hover {
   transform: scale(1.1);
+}
+
+.budaya-kerja {
+  background-image: url(../images/budayakerja.png);
+  background-repeat: no-repeat;
+  background-size:contain;
 }
