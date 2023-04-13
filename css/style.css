@@ -751,11 +751,11 @@ ul.navbar-nav > li.active > a {
 /*-- Logo --*/
 .logo img {
   width: auto;
-  height: 120px;
+  height: 60px;
 }
 
 .header-two .logo img {
-  height: 120px;
+  height: 60px;
 }
 
 /* header right */
@@ -763,6 +763,9 @@ ul.navbar-nav > li.active > a {
   float: right;
 }
 
+.menu-item {
+  float: right;
+}
 ul.top-info-box {
   list-style: none;
   margin: 0;
