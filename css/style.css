@@ -146,6 +146,7 @@ a.read-more:hover {
 section,
 .section-padding {
   padding: 70px 0;
+  margin-top: 100px;
   position: relative;
 }
 
@@ -2493,7 +2494,7 @@ img.testimonial-thumb {
 /* Footer about us */
 .footer-logo {
   margin-bottom: 25px;
-  max-height: 35px;
+  max-height: 70px;
 }
 
 /* Footer social */
@@ -3518,7 +3519,6 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid rgb(213, 216, 213);
 }
 
 .vertical-center-left {
@@ -3573,5 +3573,31 @@ label {
 .budaya-kerja {
   background-image: url(../images/budayakerja.png);
   background-repeat: no-repeat;
-  background-size:contain;
+  background-position: center;
+  background-size:75%;
+}
+@media (max-width: 990px) {
+  .budaya-kerja {
+    display: none;
+    border: 1px solid rgb(213, 216, 213);
+  }
+}
+
+.separator {
+  padding-top:1px;
+  padding-bottom:1px;
+  color: rgb(7, 48, 124);
+}
+
+#profil.row {
+  padding-bottom: 70px;
+}
+#budayakerja.row {
+  padding-bottom: 70px;
+}
+#tusi.row {
+  padding-bottom: 70px;
+}
+#dasarhukum.row {
+  padding-bottom: 70px;
 }
