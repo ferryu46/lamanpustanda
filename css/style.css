@@ -16,6 +16,7 @@ Description: Constra - Construction Html5 Template
 body {
   background: #fff;
   color: #555;
+
 }
 
 body,
@@ -766,6 +767,15 @@ ul.navbar-nav > li.active > a {
 .menu-item {
   float: right;
 }
+
+.sticki {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fefeff;
+  z-index: 99;
+}
+
 ul.top-info-box {
   list-style: none;
   margin: 0;
@@ -3521,13 +3531,24 @@ label {
 .keys {
   background-color: rgb(134, 183, 248);
   font-weight: bolder;
-  min-height: 80px;
   text-align: center;
+  min-height: 60px;
 }
 
 .keys-info {
   background-color: rgb(231, 234, 235);
 }
+@media (max-width: 990px) {
+  .vertical-center-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    border: 1px solid rgb(213, 216, 213);
+    min-height: 80px;
+  }
+}
+
 /* Error page
 ================================================== */
 .error-page .error-code h2 {
