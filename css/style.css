@@ -3584,32 +3584,35 @@ label {
 }
 
 .separator {
-  padding-top:1px;
-  padding-bottom:1px;
+  padding:0px 1px;
   color: rgb(7, 48, 124);
 }
 
-#profil.row {
-  padding-bottom: 70px;
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
-#budayakerja.row {
-  padding-bottom: 70px;
-}
-#tusi.row {
-  padding-bottom: 70px;
-}
-#dasarhukum.row {
+
+#profil.row, #budayakerja.row, #tusi.row  {
   padding-bottom: 70px;
 }
 
 .box-social {
-  display: flex;
-  max-height: 80px;
-  justify-content: center;
+  display:inline-flexbox;
+  overflow:auto;
+  max-height: 90px;
+  justify-content: left;
+  align-items:center;
+  text-align: left;
+  margin:2px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.social-text {
+  overflow:auto;
+  justify-content: left;
   align-items: center;
-  margin-top: 70px;
-  margin-right: 10px;
-  padding: 15px 15px;
-  border: 1px solid 0052a5;
-  border-bottom-right-radius: 5px;
+  vertical-align: middle;
 }
