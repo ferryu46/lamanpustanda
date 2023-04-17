@@ -3601,3 +3601,15 @@ label {
 #dasarhukum.row {
   padding-bottom: 70px;
 }
+
+.box-social {
+  display: flex;
+  max-height: 80px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-right: 10px;
+  padding: 15px 15px;
+  border: 1px solid 0052a5;
+  border-bottom-right-radius: 5px;
+}
