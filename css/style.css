@@ -3525,7 +3525,6 @@ label {
   display: flex;
   justify-content: left;
   align-items: center;
-  border: 1px solid rgb(213, 216, 213);
 }
 
 .keys {
@@ -3599,19 +3598,12 @@ label {
 }
 
 .box-social {
-  display:inline-flexbox;
-  overflow:auto;
-  max-height: 90px;
-  justify-content: left;
-  align-items:center;
-  text-align: left;
   margin:2px;
-  padding-top: 40px;
+  padding-top: 10px;
   padding-bottom: 20px;
 }
 
 .social-text {
-  overflow:auto;
   justify-content: left;
   align-items: center;
   vertical-align: middle;
