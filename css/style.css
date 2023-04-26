@@ -3575,12 +3575,6 @@ label {
   background-position: center;
   background-size:75%;
 }
-@media (max-width: 990px) {
-  .budaya-kerja {
-    display: none;
-    border: 1px solid rgb(213, 216, 213);
-  }
-}
 
 .separator {
   padding:0px 1px;
@@ -3597,10 +3591,40 @@ label {
   padding-bottom: 70px;
 }
 
-.box-social {
-  margin:2px;
+.box-social-wrap {
+  display:inline-block;
+  width:100%;
+  margin:10px;
   padding-top: 10px;
-  padding-bottom: 20px;
 }
 
+.box-social {
+  display:inline-flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 1em;
+}
 
+.box-social-text {
+  margin-left:10px;
+}
+
+@media (max-width: 990px) {
+  .budaya-kerja {
+    display: none;
+    border: 1px solid rgb(213, 216, 213);
+  }
+  .box-social-wrap {
+    display:block;
+    width:100%;
+    margin:10px;
+    padding-top: 10px;
+  }
+  .box-social {
+    display:inline-block;
+    font-size: 1em;
+  }
+  .box-social-text {
+    margin-left:auto;
+  }
+}
