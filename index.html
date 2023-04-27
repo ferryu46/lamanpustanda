@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script>
+      let url = window.location.href;
+      let index = url.lastIndexOf(".html");
+      if (index !== -1) {
+        url = url.substring(0, index);
+      }
+      window.history.replaceState(null, null, url);
+    </script>
     <!-- Basic Page Needs
 ================================================== -->
     <meta charset="utf-8" />
