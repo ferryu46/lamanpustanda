@@ -16,7 +16,6 @@ Description: Constra - Construction Html5 Template
 body {
   background: #fff;
   color: #555;
-
 }
 
 body,
@@ -3607,6 +3606,15 @@ label {
 
 .box-social-text {
   margin-left:10px;
+}
+
+.cs {
+  background-image:url(../images/image.png);
+  background-size: cover;
+}
+
+.cs:hover {
+  background-image:url(../images/mvp.png);
 }
 
 @media (max-width: 990px) {
