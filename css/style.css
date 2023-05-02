@@ -3578,6 +3578,7 @@ label {
 .separator {
   padding:0px 1px;
   color: rgb(7, 48, 124);
+  border: 1px solid #d7d8da;
 }
 
 .clearfix::after {
@@ -3635,4 +3636,12 @@ label {
   .box-social-text {
     margin-left:auto;
   }
+}
+
+.doc-container {
+  padding-top: 15px 15px;
+}
+
+.doc-container.doc-name {
+  width: 500px;
 }
