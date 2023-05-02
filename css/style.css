@@ -3645,3 +3645,9 @@ label {
 .doc-container.doc-name {
   width: 600px;
 }
+
+.tombol:hover {
+  .box-slide-sub-title {
+    color: #cacaca;
+  }
+}
