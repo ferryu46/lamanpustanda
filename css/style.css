@@ -3578,6 +3578,7 @@ label {
 .separator {
   padding:0px 1px;
   color: rgb(7, 48, 124);
+  width:auto;
   border: 1px solid #d7d8da;
 }
 
@@ -3609,15 +3610,6 @@ label {
   margin-left:10px;
 }
 
-.cs {
-  background-image:url(../images/image.png);
-  background-size: cover;
-}
-
-.cs:hover {
-  background-image:url(../images/mvp.png);
-}
-
 @media (max-width: 990px) {
   .budaya-kerja {
     display: none;
@@ -3639,15 +3631,14 @@ label {
 }
 
 .doc-container {
-  padding-top: 15px 15px;
+  padding: 10px;
+  min-height: 50px;
 }
 
-.doc-container.doc-name {
+.doc-container .doc-name {
   width: 600px;
 }
 
-.tombol:hover {
-  .box-slide-sub-title {
-    color: #cacaca;
-  }
+.tombol {
+  font-size:small;
 }
