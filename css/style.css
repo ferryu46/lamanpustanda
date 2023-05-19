@@ -3633,12 +3633,14 @@ label {
 .doc-container {
   padding: 10px;
   min-height: 50px;
+
 }
 
-.doc-container .doc-name {
-  width: 600px;
+.modal {
+  top: 70px;
 }
 
 .tombol {
   font-size:small;
+  padding: 2px 5px;
 }
