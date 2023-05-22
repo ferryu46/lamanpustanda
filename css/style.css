@@ -714,7 +714,7 @@ ul.top-info li p.info-text {
 }
 
 .navbar-fixed {
-  z-index: 9999;
+  z-index: 1030;
   position: fixed;
   width: 100%;
   top: 0;
@@ -3636,8 +3636,15 @@ label {
 
 }
 
-.modal {
-  top: 70px;
+#pdfview {
+  height: 450px;
+  width: 100%;
+}
+
+.modal-dialog {
+  /* top: 70px; */
+  height: 600px;
+  z-index: 1031;
 }
 
 .tombol {
