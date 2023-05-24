@@ -3651,3 +3651,28 @@ label {
   font-size:small;
   padding: 2px 5px;
 }
+
+/* Image Gallery */
+.galery {
+  margin: 5px;
+  border: 1px solid #dbdbdb;
+  float: left;
+  width: 180px;
+  border-radius: 5px;
+}
+
+.galery:hover {
+  border: 1px solid #686868;
+}
+
+div.galery img {
+  width: 100%;
+  height: auto;
+}
+
+.imgdesc {
+  padding: 15px;
+  font-size: small;
+  text-align: center;
+  color:#0052a5;
+}
