@@ -3755,6 +3755,9 @@ label {
 /* Hide the slides by default */
 .mySlides {
   display: none;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Next & previous buttons */
