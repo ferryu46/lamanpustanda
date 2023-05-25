@@ -3755,11 +3755,16 @@ label {
 /* Hide the slides by default */
 .mySlides {
   display: none;
-  height: 600px;
-  justify-content: center;
-  align-items: center;
+  height: 500px;
+  border:1px solid white;
 }
 
+.slidedesc {
+  background-color:white;
+  text-align: center;
+  font-size: small;
+  z-index: 1;
+}
 /* Next & previous buttons */
 .prev,
 .next {
