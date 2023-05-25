@@ -3705,7 +3705,7 @@ label {
 
 
 /* The Modal (background) */
-.modal {
+.lightbox-modal {
   display: none;
   position: fixed;
   z-index: 1031;
