@@ -3678,14 +3678,14 @@ label {
   color:#0052a5;
 }
 
-@media (max-width: 720px) {
-  column {
+@media (max-width: 1020px) {
+  .column {
     width: 50%;
   }
 }
 
-@media (max-width: 480px) {
-  column {
+@media (max-width: 720px) {
+  .column {
     width: 100%;
   }
 }
