@@ -3721,7 +3721,10 @@ label {
 /* Modal Content */
 .modal-content {
   position: relative;
-  background-color: #fefefe;
+  /* background-color: #fefefe; */
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
   margin: auto;
   padding: 0;
   width: 90%;
@@ -3772,7 +3775,11 @@ label {
   -webkit-user-select: none;
 }
 
-/* Position the "next button" to the right */
+/* Position the "prev and next button" */
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
