@@ -3566,6 +3566,7 @@ label {
 /* My addition style */
 #logo {
   height: 100%;
+  padding-left:25px;
 }
 
 #logo:hover {
