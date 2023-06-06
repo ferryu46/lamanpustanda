@@ -2631,6 +2631,7 @@ img.testimonial-thumb {
 
 #back-to-top .btn.btn-primary:hover {
   color: #fff;
+  transform: scale(1.1);
 }
 
 /* Sub Pages
