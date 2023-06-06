@@ -3563,6 +3563,9 @@ label {
 }
 
 /*# sourceMappingURL=style.css.map */
+#logo {
+  height: 100%;
+}
 
 #logo:hover {
   transform: scale(1.1);
