@@ -2613,7 +2613,7 @@ img.testimonial-thumb {
   height: 36px;
   line-height: 36px;
   background: rgba(1, 18, 114, 0.9);
-  border-radius: 3px;
+  border-radius: 50%;
   color: #ffb600;
   font-weight: 700;
   font-size: 16px;
